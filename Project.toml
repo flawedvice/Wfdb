@@ -1,0 +1,16 @@
+name = "Wfdb"
+uuid = "e188afa5-3ed2-455e-ac64-82876afe25fb"
+authors = ["Vicente Aranda <vicente.aranda@protonmail.com>"]
+version = "1.0.0-DEV"
+
+[deps]
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
